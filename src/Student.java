@@ -49,6 +49,7 @@ public class Student implements Serializable {
 
     @Override
     public String toString() {
-        return String.format("First name: %s\nLast name: %s\nCity: %s\n", firstName, lastName, city);
+        return String.format("First name: %s\nLast name: %s\nCity: %s", firstName, lastName, city);
     }
+
 }
